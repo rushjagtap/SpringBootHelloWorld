@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class RestHandler {
 	@RequestMapping("/")
 	public String index() {
-		return "Hello World from SpringBoot Application";
+		return "Hello World from SpringBoot Application..";
 	}
 
 	@RequestMapping("/message")
